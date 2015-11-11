@@ -78,10 +78,3 @@ If that is the case, then the user will not be charged for that post until its s
 
 = 1.0 =
 * First release of this plugin
-
-
-== Upgrade Notice ==
-
-= 1.0 =
-Upgrade notices describe the reason a user should upgrade.  No more than 300 characters.
-
