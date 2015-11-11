@@ -21,7 +21,7 @@ This plugin requires myCRED plugin installed and configured.
 With this plugin you can set rules for each myCRED Type and Post type including Pages, Posts and Custom Post Types. It is simple to use and comes bundled with a shortcode [p2p_price] that you can use to charge for front-end publishing as well.
 
 It is program to charge the amount of myCRED type you decide and it supports more than 1 Point Type
-This is the long description.  No limit, and you can use Markdown 
+This is the long description.
 
 
 A few notes about the sections above:
