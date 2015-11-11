@@ -414,7 +414,6 @@ function load_P2P_module(){
                 $can_publish = false;
                 $options = array();
                 $balance = array();
-                //$rule = array();
 
                 foreach ( $mycred_types as $key => $value ) {
                     if ( $key === 'mycred_default' ){
@@ -429,7 +428,7 @@ function load_P2P_module(){
                 if ( empty ( $options ) ){
                     return true;
                 }
-                //print_r($options);
+                
                 if ($user_id == null){
                         global $current_user;
                         get_currentuserinfo();
@@ -454,6 +453,7 @@ function load_P2P_module(){
                 $rule = $this->p2p_find_post_type( $ptype, $options );
                 $rule = array_filter($rule);
                 $rule = array_values($rule);
+
                 if ( ! empty ( $rule ) ){
                     for ( $i = 0; $i < count($rule); $i++ ){
                         if ( isset( $rule[ $i ] ) ){
@@ -483,6 +483,8 @@ function load_P2P_module(){
                         $this->current_message = $message;
                     }
                     return $can_publish;                    
+                } else {
+                    $can_publish = true;
                 }
                 return $can_publish;
             }

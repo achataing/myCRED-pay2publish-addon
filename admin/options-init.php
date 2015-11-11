@@ -179,7 +179,7 @@
                 'title'    => __('Support', 'pay2publish'),
                 'subtitle' => __('If you like this plugin you can support it by doing the following:.', 'pay2publish'),
                 'desc'     => __('Rate, follow or donate... will not ask for more', 'pay2publish'),
-                'content'  => file_get_contents(P2PADDON_ROOT_DIR . 'myfile.txt'),
+                'content'  => file_get_contents(P2PADDON_ROOT_DIR . '/admin/myfile.txt'),
             ),
         )
     ) );
