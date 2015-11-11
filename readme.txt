@@ -1,4 +1,4 @@
-# myCRED-pay2publish-addon
+# pay2publish-addon-mycred
 This plugin is an addon for myCRED plugin. It allows you to charge for Publishing Pages, Post, Custom Post Types both in backend and frontend (you must wrap your form using the shortcode [p2p_price]). Requires myCRED version 1.4 and above
 
 
